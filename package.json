@@ -1,0 +1,20 @@
+{
+    "name": "typechain",
+    "version": "1.0.0",
+    "description": "Learning Typescript by making a Blockchain with it",
+    "main": "index.js",
+    "repository": "https://github.com/Niens101/typechain.git",
+    "author": "Ruan Nienaber <niens101@gmail.com>",
+    "license": "MIT",
+    "dependencies": {
+        "crypto-js": "^4.0.0",
+        "tsc-watch": "^4.2.9",
+        "typescript": "^4.2.4"
+    },
+    "scripts": {
+        "start": "tsc-watch --onSuccess \" node dist/index.js\" "
+    },
+    "devDependencies": {
+        "tsc-watch": "1.0.17"
+    }
+}
